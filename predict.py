@@ -5,7 +5,7 @@ import tensorflow as tf
 from PIL import Image
 
 # Loading the tflite model
-model_path = r"C:\Users\97155\Downloads\CHEST -XRAY\Chest-X-Ray-Classification\App\main.tflite"
+model_path = r"main.tflite"
 interpreter = tf.lite.Interpreter(model_path=model_path)
 interpreter.allocate_tensors()
 
